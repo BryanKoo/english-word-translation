@@ -12,4 +12,4 @@ If vocabulary learning content is based on simple data structure as follows.
 Only one of the four records are in the native language and the other three can be reused for any other native languages.
 If we have English vocabulary learning content for Korean, for examplem it is relatively easy to create vocabulary learning content for Japaese.
 
-With this project I am going to build a English to Japanese dictionary for Leedovoca, a famous English vocabulary learning content for Korean.
+With this project I am going to build a English to Japanese dictionary for Leedovoca, a famous English vocabulary learning content for Korean, with Wiktionary.
