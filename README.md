@@ -1,6 +1,4 @@
 # English2Japanese Dictionary
-Build Japanese dictionary for English vocabulary learning
-
 Vocabulary learning is one of the first thing to do for learning any foreign languages.
 
 We can build vocabulary learning content based on data structure as below.
@@ -9,13 +7,14 @@ We can build vocabulary learning content based on data structure as below.
   * meaning of the word (images)
   * short corresponding word examples of the native language (string)
 
-Only the fourth record are in the native language and the other three can be reused for any other native languages.
+Only the fourth record is based on the native language and the other three can be reused for any other native languages.
 The forth record is actually not very important because the meaning of the word is meant be understood by images.
+
+With this project I am going to build an English to Japanese dictionary.
 If we have English vocabulary learning content for Korean, it is relatively easy to create vocabulary learning content for Japaese.
 
-With this project I am going to build an English to Japanese dictionary for Leedovoca, a famous English vocabulary learning content for Korean.
 
-Software Requiremants
+# Software Requiremants
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scrapers for on-line dictionaries
@@ -29,3 +28,9 @@ Software Requiremants
   * need to define policy for choosing representative word
   * common policy is choosing short word
   * preferences for japanese are kanji > hiragana > katagana > english
+
+# Resources
+Wiktionary is user-generated dictionary and thus it has lots of errors.
+One type of error for Japanese string is using wrong kanji, which is usually from Chinese simplified character.
+In order to verify each kanji character, we need Unihan_IRGSources.txt which is included in the following zip file.
+http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
