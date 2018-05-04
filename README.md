@@ -30,7 +30,8 @@ If we have English vocabulary learning content for Korean, it is relatively easy
   * preferences for japanese are kanji > hiragana > katagana > english
 
 # Resources
+## Unihan_IRGSources.tx
 Wiktionary is user-generated dictionary and thus it has lots of errors.
 One type of error for Japanese string is using wrong kanji, which is usually from Chinese simplified character.
-In order to verify each kanji character, we need Unihan_IRGSources.txt which is included in the following zip file.
-http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
+The file has the information about the dictionary source of each han character for each asian country.
+The file is included in the following zip file. http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
