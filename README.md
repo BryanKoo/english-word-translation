@@ -15,11 +15,17 @@ If we have English vocabulary learning content for Korean, it is relatively easy
 
 With this project I am going to build an English to Japanese dictionary for Leedovoca, a famous English vocabulary learning content for Korean.
 
-Requiremants (SRS)
+Software Requiremants
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scrapers for on-line dictionaries
+  * english dictionary which has japanese translation (wiktionary)
+  * japanese dictionary (wiktionary, koto, weblio)
+* Word selector
   * extract native explanations for each word of the foreign language
     * 1 or more etymology > 1 or more pos(part of speech) > 1 or more corresponding native words
-* Word selector
   * choose a few representative words from many candidates
+  * neet to process special symbols to connect each meaning (, : ;) in dictionaries
+  * need to define policy for choosing representative word
+  * common policy is choosing short word
+  * preferences for japanese are kanji > hiragana > katagana > english
