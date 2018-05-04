@@ -14,7 +14,7 @@ With this project I am going to build an English to Japanese dictionary.
 If we have English vocabulary learning content for Korean, it is relatively easy to create vocabulary learning content for Japaese.
 
 
-# Software Requiremants
+## Software Requiremants
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scrapers for on-line dictionaries
@@ -29,8 +29,8 @@ If we have English vocabulary learning content for Korean, it is relatively easy
   * common policy is choosing short word
   * preferences for japanese are kanji > hiragana > katagana > english
 
-# Resources
-## Unihan_IRGSources.tx
+## Resources
+### Unihan_IRGSources.tx
 Wiktionary is user-generated dictionary and thus it has lots of errors.
 One type of error for Japanese string is using wrong kanji, which is usually from Chinese simplified character.
 The file has the information about the dictionary source of each han character for each asian country.
