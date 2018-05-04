@@ -23,7 +23,7 @@ Software Requiremants
   * japanese dictionary (wiktionary, koto, weblio)
 * Word selector
   * extract native explanations for each word of the foreign language
-    * 1 or more etymology > 1 or more pos(part of speech) > 1 or more corresponding native words
+    * 1 or more etymologies > 1 or more pos's(part of speech) > 1 or more corresponding native words
   * choose a few representative words from many candidates
   * neet to process special symbols to connect each meaning (, : ;) in dictionaries
   * need to define policy for choosing representative word
