@@ -36,7 +36,7 @@ One type of error for Japanese string is using wrong kanji, which is usually fro
 The file has the information about the dictionary source of each han character for each asian country.
 The file is included in the following zip file. http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
 
-### wikt2dict
+### wikt2dict https://github.com/juditacs/wikt2dict
 The document format for wiktionary is wikimedia.
-English wikitionary in xml file can be downloaded from https://dumps.wikimedia.org/enwiktionary/.
-With wikt2dict, we can get xml parsed file easily for multiple languages.
+English wikitionary in xml file can be downloaded from the wikimedia archive.
+With wikt2dict, we can get xml parsed wikimedia files for multiple languages at once.
