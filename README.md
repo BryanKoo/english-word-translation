@@ -19,7 +19,7 @@ Requiremants (SRS)
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scrapers for on-line dictionaries
-  * extract native explanation for each word of the foreign language
-    * 1 or more etymology > 1 or more part ot speech > 1 or more native words
+  * extract native explanations for each word of the foreign language
+    * 1 or more etymology > 1 or more pos(part of speech) > 1 or more corresponding native words
 * Word selector
-  * choose a few representative words frin many candidates
+  * choose a few representative words from many candidates
