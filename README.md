@@ -40,3 +40,4 @@ The file is included in the following zip file. http://www.unicode.org/Public/UC
 The document format for wiktionary is wikimedia.
 English wikitionary in xml file can be downloaded from the wikimedia archive.
 With wikt2dict, we can get xml parsed wikimedia files for multiple languages at once.
+However, it is needed to add some code in config.py for downloading wiktionary of asian countries.
