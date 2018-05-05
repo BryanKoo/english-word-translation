@@ -1,18 +1,15 @@
 # English2Japanese Dictionary
 Vocabulary learning is one of the first thing to do for learning any foreign languages.
 
-We can build vocabulary learning content based on data structure as below.
-* word of the foreign laguage (string)
-  * the example phrases/sentence of the foreign language (strings and/or images)
-  * meaning of the word (images)
-  * short corresponding word examples of the native language (string)
+We can build English vocabulary learning content based on data structure as below.
+* English word (string)
+  1 example phrases/sentences in English (strings)
+  2 meaning of the word (images)
+  3 short corresponding word examples of the learner's language (string)
 
-Only the fourth record is based on the native language and the other three can be reused for any other native languages.
-The forth record is actually not very important because the meaning of the word is meant be understood by images.
-
-With this project I am going to build an English to Japanese dictionary.
-If we have English vocabulary learning content for Korean, it is relatively easy to create vocabulary learning content for Japaese.
-
+When we build English vocabulary learning contents for multiple other languages, the first two records will be the same for all. Only the third record should be prepared for each language.
+I am going to build English dictionaries for multiple other languages in programmatic way.
+Japanese is the first and other asian languages will be followed.
 
 ## Software Requiremants
 * Language utilities for the native/foreign language (Japanese, English)
