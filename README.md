@@ -14,6 +14,12 @@ Japanese is the first and other asian languages will be followed.
 ## Homograph and Polysemes (from the definition of wikipedia)
 Homographs are words that have two or more different meanings.
 Two types of homographs are homonym and heteronym, distinguished by the prononciation.
+An example of homonym is tire and an example of heteronym is desert.
+A polyseme is a word or phrase with different, but related senses.
+Offline dictionaries usually have sepereted entry for homographs and united entry for polysemes.
+But some online dictionaries like Wiktionary do not follow this policy, it has only one entry for homograph.
+Our dictinary follow the policy of offline dictionaries because of the data structure.
+It is assumed that manual task will done to handle the difference of Homograph policy.
 
 ## Software Requiremants
 * Language utilities for the native/foreign language (Japanese, English)
