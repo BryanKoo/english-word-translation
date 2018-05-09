@@ -45,6 +45,7 @@ However, it is needed to add some code in config.py for downloading wiktionary o
 
 ### Unihan_IRGSources.txt
 Wiktionary is user-generated dictionary and thus it has lots of errors.
-One type of error for Japanese string is using wrong kanji, which is usually from Chinese simplified character.
+One type of error for Japanese string is using wrong kanji, which is usually from Chinese simplified character set.
 The file has the information about the dictionary source of each han character for each asian country.
+We can check for each unified han character whether they are used in Japanese or not with the file.
 The file is included in the following zip file. http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
