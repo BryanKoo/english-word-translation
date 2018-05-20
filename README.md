@@ -58,9 +58,10 @@ Because this project needs short translating words, one service has selected and
 
 ## How to execute
 1. download python files.
-2. prepare dictionary
-   * create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
-   * create a sub directory /dict for the dictionary and put english and japanese wiktionary with help of wikt2dict.
+2. create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
+3. prepare dictionary
+   * create a sub directory /dict for the dictionary
+   * put english and japanese wiktionary with help of wikt2dict.
    * crawl online Japanese dictionary.
-3. extract translations from dictionary
-4. build the output dictionary that has simple equivalent Japanese words for each English word
+4. extract translations from dictionary
+5. build the output dictionary that has simple equivalent Japanese words for each English word
