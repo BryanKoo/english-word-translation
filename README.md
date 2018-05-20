@@ -5,9 +5,10 @@ We can build English vocabulary learning content based on data structure as belo
 * English word (string)
   1 example phrases/sentences in English (strings)
   2 meaning of the word (images)
-  3 short corresponding words of the learner's language (string)
+  3 equivalant word(s) in foreign language (string)
 
 When we build above English vocabulary learning contents for multiple other languages, the first two records will be the same for all. Only the third record should be prepared for each language.
+The third record is not the full explanation of the English word but short equivalent word(s) in foreign language.
 I am going to build English dictionaries for multiple other languages in programmatic way for the third record.
 Japanese is the first and other asian languages will be followed.
 
@@ -50,8 +51,16 @@ The file has the information about the dictionary source of each han character f
 We can check for each unified han character whether they are used in Japanese or not with the file.
 The file is included in the following zip file. http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
 
+### Online Japanese dictionaries (for English words)
+There is possibility that we cannot get all translation from the Wiktionary.
+We can use online Japanese dictionary services for English words.
+Because this project needs short translating words, one service has selected and prepared for crawling.
+
 ## How to execute
 1. download python files.
-2. create a sub directory /words and put a text file all_words.csv that has a english word to be translated each line.
-3. create a sub directory /dict for the dictionary and put english and japanese wiktionary with help of wikt2dict.
-4. crawl japanese dictionary for english word that cannot be translated with wiktionaries.
+2. prepare dictionary
+2.1 create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
+2.2 create a sub directory /dict for the dictionary and put english and japanese wiktionary with help of wikt2dict.
+2.3 crawl online Japanese dictionary.
+3. extract translations from dictionary
+4. build the output dictionary that has simple equivalent Japanese words for each English word
