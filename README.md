@@ -21,7 +21,7 @@ But some online dictionary like Wiktionary does not follow this policy, it has o
 Our dictinary follow the same policy as offline dictionaries because it is better for vocabulary learning.
 It is assumed that the difference of Homograph policy is post-processed manually.
 
-## Software Requiremants
+## Software requiremants for the projects
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scrapers for on-line dictionaries
@@ -36,7 +36,7 @@ It is assumed that the difference of Homograph policy is post-processed manually
   * common policy is choosing short word
   * preferences for japanese are kanji > hiragana > katagana > english
 
-## External Resources
+## External resources
 ### wikt2dict https://github.com/juditacs/wikt2dict
 The document format for wiktionary is wikimedia.
 English wikitionary in xml file can be downloaded from the wikimedia archive.
@@ -49,3 +49,9 @@ One type of error for Japanese string is using wrong kanji, which is usually fro
 The file has the information about the dictionary source of each han character for each asian country.
 We can check for each unified han character whether they are used in Japanese or not with the file.
 The file is included in the following zip file. http://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip
+
+## How to execute
+1. download python files.
+2. create a sub directory /words and put a text file all_words.csv that has a english word to be translated each line.
+3. create a sub directory /dict for the dictionary and put english and japanese wiktionary with help of wikt2dict.
+4. crawl japanese dictionary for english word that cannot be translated with wiktionaries.
