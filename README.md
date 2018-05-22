@@ -33,7 +33,7 @@ So there will be only one entry for each homograph and the meanings will be unif
     * 1 or more etymologies
       * 1 or more pos's(part of speech)
         * 1 or more corresponding native words
-  * choose a few representative words from many candidates
+  * elect short representative words from many candidates
   * neet to process special symbols to connect each meaning (, : ;) in dictionaries
   * need to define policy for choosing representative word
     * common policy is choosing short word
@@ -71,16 +71,17 @@ bear | 支える,クマ
 ## How to execute
 1. download python files.
 2. create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
-3. prepare dictionary
+3. prepare dictionaries in plain text
    * create a sub directory /dict for the dictionary
    * put english and japanese wiktionary (with wikt2dict).
    * crawl online Japanese dictionary by executing crawl_jdict.py
-4. extract translations from dictionary
-   * extract from wiktionary by executing extract_trans_enwikt.py and extract_trans_jawikt.py
-   * extract from online dictionary by executing extract_trans_jdict.py
+4. extract translations from each dictionary
+   * extract translation from wiktionary by executing extract_trans_enwikt.py and extract_trans_jawikt.py
+   * extract translation from online dictionary by executing extract_trans_jdict.py
 5. build the output dictionary that has simple equivalent Japanese words for each English word
    * create a sub directory /out
-   * build by executing run build_jdict.py
+   * elect equivalent words from traslations by executing elect_words.py
+   * build a English2Japanese word to words output dictionary by executing build_jd_jw_ew.py
 
 ## Caveats
 * Finding wrong Chinese character is done automatically but correcting should be done manually.
