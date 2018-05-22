@@ -81,3 +81,7 @@ bear | 支える,クマ
 5. build the output dictionary that has simple equivalent Japanese words for each English word
    * create a sub directory /out
    * build by executing run build_jdict.py
+
+## Caveats
+* Finding wrong Chinese character is done automatically but correcting should be done manually.
+* Differenct punctuation marks are used in different dictionaries or different entries of dictionary. They should be normalized.
