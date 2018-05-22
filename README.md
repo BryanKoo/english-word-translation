@@ -59,7 +59,8 @@ We can use online Japanese dictionary services for English words.
 Because this project needs short translating words, one service has selected and prepared for crawling.
 
 ## Translation examples
-Meanings of homograph should be unified as the table below.
+Japanese equivalent words will be provided by this project as the table below.
+Meanings of homograph will be unified as in the row for the word 'bear'.
 
 English word | Japanese equivalent words
 ------------ | ------------
