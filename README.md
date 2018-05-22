@@ -22,10 +22,10 @@ But some online dictionary like Wiktionary does not follow this policy, it has o
 Though the former policy is better for vocabulary learning, it is assumed that the homograph policy is post-processed manually in this project.
 So there will be only one entry for each homograph and the meanings will be unified, for the time being.
 
-## Software requiremants for the projects
+## Software requiremants of the projects
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
-* Scrapers for on-line dictionaries
+* Scraping on-line dictionaries
   * english dictionary which has japanese translation (wiktionary)
   * japanese dictionary (wiktionary, koto, weblio)
 * Translation(equivalant word) extractor
