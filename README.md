@@ -3,9 +3,9 @@ Vocabulary learning is one of the first thing to do for learning any foreign lan
 
 We can build English vocabulary learning content based on data structure as below.
 * English word (string)
-  1 example phrases/sentences in English (strings)
-  2 meaning of the word (images)
-  3 equivalant word(s) in foreign language (string)
+  * example phrases/sentences in English (strings)
+  * meaning of the word (images)
+  * equivalant word(s) in foreign language (string)
 
 When we build above English vocabulary learning contents for multiple other languages, the first two records will be the same for all. Only the third record should be prepared for each language.
 The third record is not the full explanation of the English word but short equivalent word(s) in foreign language.
