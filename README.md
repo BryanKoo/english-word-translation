@@ -59,7 +59,8 @@ Because this project needs short translating words, one service has selected and
 ## Translation examples
 Meanings of homograph should be unified as the table below.
 
-English word | J/apanese equivalent words
+English word | Japanese equivalent words
+------------ | ------------
 a.m. | 午前
 abdominal | 腹の,腹筋
 bear | 支える,クマ
