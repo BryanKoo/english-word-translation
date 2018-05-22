@@ -56,6 +56,14 @@ There is possibility that we cannot get all translation from the Wiktionary.
 We can use online Japanese dictionary services for English words.
 Because this project needs short translating words, one service has selected and prepared for crawling.
 
+## Translation examples
+Meanings of homograph should be unified as the table below.
+
+English word | J/apanese equivalent words
+a.m. | 午前
+abdominal | 腹の,腹筋
+bear | 支える,クマ
+
 ## How to execute
 1. download python files.
 2. create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
