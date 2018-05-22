@@ -17,10 +17,10 @@ Homographs are words that have two or more different meanings.
 Two types of homographs are homonym and heteronym, distinguished by the prononciation.
 An example of homonym is tire and an example of heteronym is desert.
 A polyseme is a word or phrase with different, but related senses.
-Offline dictionaries have sepereted entry for homographs and united entry for polysemes.
+Offline dictionaries have sepereted entry for homographs and unified entry for polysemes.
 But some online dictionary like Wiktionary does not follow this policy, it has only one entry for homograph.
-Our dictinary follow the same policy as offline dictionaries because it is better for vocabulary learning.
-It is assumed that the difference of Homograph policy is post-processed manually.
+Though the former policy is better for vocabulary learning, it is assumed that the homograph policy is post-processed manually in this project.
+So there will be only one entry for each homograph and the meanings will be unified, for the time being.
 
 ## Software requiremants for the projects
 * Language utilities for the native/foreign language (Japanese, English)
@@ -60,7 +60,7 @@ Because this project needs short translating words, one service has selected and
 
 ## Translation examples
 Japanese equivalent words will be provided by this project as the table below.
-Meanings of homograph will be unified as in the row for the word 'bear'.
+Meanings of homograph will be unified by one word as the row for the word 'bear'.
 
 English word | Japanese equivalent words
 ------------ | ------------
