@@ -36,8 +36,8 @@ It is assumed that the difference of Homograph policy is post-processed manually
   * choose a few representative words from many candidates
   * neet to process special symbols to connect each meaning (, : ;) in dictionaries
   * need to define policy for choosing representative word
-  * common policy is choosing short word
-  * preferences for japanese are kanji > hiragana > katagana > english
+    * common policy is choosing short word
+      * preferences for japanese are kanji > hiragana > katagana > english
 
 ## External resources
 ### wikt2dict https://github.com/juditacs/wikt2dict
