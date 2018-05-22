@@ -73,7 +73,11 @@ bear | 支える,クマ
 2. create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
 3. prepare dictionary
    * create a sub directory /dict for the dictionary
-   * put english and japanese wiktionary with help of wikt2dict.
-   * crawl online Japanese dictionary.
+   * put english and japanese wiktionary (with wikt2dict).
+   * crawl online Japanese dictionary by executing crawl_jdict.py
 4. extract translations from dictionary
+   * extract from wiktionary by executing extract_trans_enwikt.py and extract_trans_jawikt.py
+   * extract from online dictionary by executing extract_trans_jdict.py
 5. build the output dictionary that has simple equivalent Japanese words for each English word
+   * create a sub directory /out
+   * build by executing run build_jdict.py
