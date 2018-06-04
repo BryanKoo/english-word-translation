@@ -39,7 +39,7 @@ So there will be only one entry for each homograph and the meanings will be unif
     * common policy is choosing short word
     * preferences for japanese are kanji > hiragana > katagana > english
 
-## External resources
+## Dependencies (external resources)
 ### wikt2dict https://github.com/juditacs/wikt2dict
 The document format for wiktionary is wikimedia.
 English wikitionary in xml file can be downloaded from the wikimedia archive.
@@ -68,7 +68,7 @@ a.m. | 午前
 abdominal | 腹の,腹筋
 bear | 支える,クマ
 
-## How to execute
+## How to use
 1. download python files.
 2. create a sub directory /words and put a text file all_words.csv where each line has a english word to be translated.
 3. prepare dictionaries in plain text
@@ -86,3 +86,6 @@ bear | 支える,クマ
 ## Caveats
 * Finding wrong Chinese character is done automatically but correcting should be done manually.
 * Differenct punctuation marks are used in different dictionaries or different entries of dictionary. They should be normalized.
+
+## License
+To be determined.
