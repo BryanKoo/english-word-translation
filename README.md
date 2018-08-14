@@ -1,4 +1,4 @@
-# English to other multiple language Word to Word Dictionary
+# English Word to Word Translation Dictionary
 Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
 Flash cards are helpful for learning and memorizing things that are simple but numerous, like vocabulary.
 When we create bilingual flash cards for vocabulary, the one side of the card will be a foreign word and an image like 
