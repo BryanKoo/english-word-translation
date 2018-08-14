@@ -1,14 +1,20 @@
-# English2Japanese Dictionary
-Vocabulary learning is one of the first thing to do for learning any foreign languages.
+# English2Japanese Word to Word Dictionary
+Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
+Flash cards are helpful for learning and memorizing things that are simple but numerous, like vocabulary.
+When we create bilingual flash cards for vocabulary, the one side of the card will be a foreign word and an image like 
+http://www.eslkidslab.com/flashcards/set2/toyflashcards/toys%20flashcardsmall0000.jpg, and the other side will be the equivalant word in native language.
+Because example usage of the word is also helpful for vocabulary learning, we need structured data as below.
+* Foreign word (text)
+  * meaning of the word (image)
+  * example phrases/sentences in foreign language (text + image)
+  * level of word (from difficulty and frequency)
+  * equivalant word(s) in native language (text)
 
-We can build English vocabulary learning content based on data structure as below.
-* English word (string)
-  * example phrases/sentences in English (strings)
-  * meaning of the word (images)
-  * equivalant word(s) in foreign language (string)
-
-When we build above English vocabulary learning contents for multiple other languages, the first two records will be the same for all. Only the third record should be prepared for each language.
-The third record is not the full explanation of the English word but short equivalent word(s) in foreign language.
+If we build English vocabulary contents for multiple other native languages.
+Then the first three records will be the same for all native languages.
+Only the fourth records are different for each language.
+It is not the lengthy explanation of the English that can be seen in the dictionary book.
+For multiple native languages, preparing the third column will be the most time consuming.
 I am going to build English dictionaries for multiple other languages in programmatic way for the third record.
 Japanese is the first and other asian languages will be followed.
 
