@@ -1,22 +1,24 @@
-# English Word to Word Translation Dictionary
+# English Word to Word Translation
 Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
-Flash cards are helpful for learning and memorizing things that are simple but numerous, like vocabulary.
-When we create bilingual flash cards for vocabulary, the one side of the card will be a foreign word and an image like 
-http://www.eslkidslab.com/flashcards/set2/toyflashcards/toys%20flashcardsmall0000.jpg, and the other side will be the equivalant word in native language.
-Because example usage of the word is also helpful for vocabulary learning, we need structured data as below.
+Flash cards are helpful for learning and memorizing things that are simple but numerous.
+We may call flash cards for vocabulary as word cards.
+Wnen we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be example usage of the word.
+When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
+
+We need structured data as below for both word cards.
 * Foreign word (text)
   * meaning of the word (image)
   * example phrases/sentences in foreign language (text + image)
   * level of word (from difficulty and frequency)
   * equivalant word(s) in native language (text)
 
-If we build English vocabulary contents for multiple other native languages.
-Then the first three records will be the same for all native languages.
+If we build English vocabulary contents for multiple other native languages, the first three records will be the same for all native languages.
 Only the fourth records are different for each language.
 It is not the lengthy explanation of the English that can be seen in the dictionary book.
+It it short equivalent word(s) in native language and it can be called word to word translation.
 For multiple native languages, preparing the third column will be the most time consuming.
-I am going to build English dictionaries for multiple other languages in programmatic way for the third record.
-Japanese is the first and other asian languages will be followed.
+This project is for building English word to word translation dictionaries for multiple other languages in programmatic way for the third record.
+Japanese is the first native language and other languages will be followed.
 
 ## Homograph and Polysemes (from the definition of wikipedia)
 Homographs are words that have two or more different meanings.
