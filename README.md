@@ -6,6 +6,9 @@ We may call flash cards for vocabulary as word cards.
 Wnen we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be example usage of the word.
 When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
 
+Levels are mandatory metadata for all kinds of learning contents.
+Advanced users learn nothing from basic contents and beginners also learn little if content is very difficult.
+
 We need structured data as below for both word cards.
 * Foreign word (text)
   * meaning of the word (image)
@@ -35,8 +38,8 @@ So there will be only one entry for each homograph and the meanings will be unif
 * Language utilities for the native/foreign language (Japanese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scraping on-line dictionaries
-  * english dictionary which has japanese translation (wiktionary)
-  * japanese dictionary (wiktionary, koto, weblio)
+  * English dictionary which has Japanese translation (wiktionary)
+  * Japanese dictionary (wiktionary, koto, weblio)
 * Translation(equivalant word) extractor
   * extract native explanations for each word of the foreign language
     * 1 or more etymologies
@@ -46,7 +49,7 @@ So there will be only one entry for each homograph and the meanings will be unif
   * neet to process special symbols to connect each meaning (, : ;) in dictionaries
   * need to define policy for choosing representative word
     * common policy is choosing short word
-    * preferences for japanese are kanji > hiragana > katagana > english
+    * preferences for Japanese are kanji > hiragana > katagana > english
 
 ## Dependencies (external resources)
 ### wikt2dict https://github.com/juditacs/wikt2dict
