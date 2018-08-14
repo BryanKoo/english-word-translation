@@ -18,10 +18,10 @@ We need structured data as below for both word cards.
 
 If we build English vocabulary contents for multiple other native languages, the first three records will be the same for all other languages.
 Only the fourth records are different for each language.
-It is not the lengthy explanation of the English that can be seen in the dictionary book.
+It is not the lengthy explanation of the English that can be seen in the dictionary.
 It it short equivalent word(s) in native language and it can be called word to word translation.
 For multiple native languages, preparing the third column will be the most time consuming.
-This project is for building English word to word translation dictionaries for multiple other languages in programmatic way for the third record.
+This project is for building English word to word translations for multiple other languages in programmatic way for the third record.
 Japanese is the first language for translation and other languages will be followed.
 
 ## Homograph and Polysemes (from the definition of wikipedia)
