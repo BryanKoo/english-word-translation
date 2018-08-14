@@ -1,5 +1,6 @@
 # English Word to Word Translation
 Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
+
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
 We may call flash cards for vocabulary as word cards.
 Wnen we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be example usage of the word.
