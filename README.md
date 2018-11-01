@@ -36,7 +36,8 @@ So there will be only one entry for each homograph and the meanings will be unif
 
 ## POS detection
 A word can be used as noun in one sentence and as verb in another sentenc.
-A word in a word card has a single part-of-speech role that can be explained by image and example sentences. 
+A word in a word card has a single part-of-speech role that can be explained by image and example sentences.
+Thus POS detection of the word in the example sentence is needed to choose 
 
 ## Software requiremants of the projects
 * Language utilities for the native/foreign language (Japanese, English)
