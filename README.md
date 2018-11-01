@@ -3,13 +3,13 @@ Vocabulary learning is one of the first thing to do for learning any foreign lan
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
 We may call flash cards for vocabulary as word cards.
-Wnen we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be example usage of the word.
+When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be phrase or short sentence where the word is used.
 When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
 
 Levels are mandatory metadata for all kinds of learning contents.
 Advanced users learn nothing from basic contents and beginners also learn little if content is very difficult.
 
-We need structured data as below for both word cards.
+We need structured data as below for preparing both word cards.
 * Foreign word (text)
   * meaning of the word (image)
   * example phrases/sentences in foreign language (text + image)
@@ -33,6 +33,10 @@ Offline dictionaries have sepereted entry for homographs and unified entry for p
 But some online dictionary like Wiktionary does not follow this policy, it has only one entry for homograph.
 Though the former policy is better for vocabulary learning, it is assumed that the homograph policy is post-processed manually in this project.
 So there will be only one entry for each homograph and the meanings will be unified, for the time being.
+
+## POS detection
+A word can be used as noun in one sentence and as verb in another sentenc.
+A word in a word card has a single part-of-speech role that can be explained by image and example sentences. 
 
 ## Software requiremants of the projects
 * Language utilities for the native/foreign language (Japanese, English)
