@@ -1,4 +1,4 @@
-# English Word to Word Translation
+# English Word Translation for Word Cards
 Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
@@ -40,11 +40,12 @@ A word in a word card has a single part-of-speech role that can be explained by 
 Thus POS detection of the word in the example sentence is needed to choose 
 
 ## Software requiremants of the projects
-* Language utilities for the native/foreign language (Japanese, English)
+* Language utilities for the native/foreign language (Japanese, Vietnamese, English)
   * alphabet check, symbol replacement, locale, etc.,
 * Scraping on-line dictionaries
   * English dictionary which has Japanese translation (wiktionary)
   * Japanese dictionary (wiktionary, koto, weblio)
+  * Vietnamese dictionary (laban, tracau, tratu)
 * Translation(equivalant word) extractor
   * extract native explanations for each word of the foreign language
     * 1 or more etymologies
