@@ -1,4 +1,4 @@
-# English Word Translation for Word Cards
+# English Word Translation for vocabulary materials
 Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
@@ -34,10 +34,12 @@ But some online dictionary like Wiktionary does not follow this policy, it has o
 Though the former policy is better for vocabulary learning, it is assumed that the homograph policy is post-processed manually in this project.
 So there will be only one entry for each homograph and the meanings will be unified, for the time being.
 
-## POS detection
+## POS(part-of-speech) tagging
 A word can be used as noun in one sentence and as verb in another sentenc.
-A word in a word card has a single part-of-speech role that can be explained by image and example sentences.
-Thus POS detection of the word in the example sentence is needed to choose 
+A word has a single part-of-speech role that can be explained by a example sentence.
+Thus POS tagging of the word in the example sentence is needed to make the translation simple and correct.
+There are a few English POS taggers for python language.
+Though NLTK has a basic English POS tagger, it is known that Syntaxnet, Spacy, Stanford POS tagger are better than NLTK.
 
 ## Software requiremants of the projects
 * Language utilities for the native/foreign language (Japanese, Vietnamese, English)
