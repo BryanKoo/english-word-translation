@@ -1,31 +1,27 @@
 # English Word Translation for Vocabulary Education
-Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
+Vocabulary learning is the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
 We may call flash cards for vocabulary as word cards.
-When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be short explanation or example sentence.
+When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be short explanation or example sentence in the same language as the word.
 When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
-
-Levels are mandatory metadata for all kinds of learning contents.
-Advanced users learn nothing from basic contents and beginners also learn little if content is very difficult.
 
 We need structured data as below for preparing both word cards.
 * Foreign word (text)
-  * meaning of the word (image)
+  * visualization of the word (image)
   * example phrases/sentences in foreign language (text + image)
-  * level of word (from difficulty and frequency)
   * equivalant word(s) in native language (text)
 
-If we build English vocabulary contents for multiple other native languages, the first three records will be the same for all other languages.
-Only the fourth records are different for each language.
-It is not the lengthy explanation of the English that can be seen in the dictionary.
+If we build English vocabulary contents for multiple other native languages, the first two records will be the same for all other languages.
+Only the third records are different for each language.
+It is not the lengthy explanation of the English that can be seen in the English to Ensligh dictionary.
 It it short equivalent word(s) in native language and it can be called word to word translation.
 For multiple native languages, preparing the third column will be the most time consuming.
 This project is for building English word to word translations for multiple other languages in programmatic way for the third record.
 Japanese is the first language for translation and other languages will be followed.
 
 ## Homograph and Polysemes (from the definition of wikipedia)
-Homographs are words that have two or more different meanings.
+Homographs are words that have two or more different meanings (originated from different etimology).
 Two types of homographs are homonym and heteronym, distinguished by the prononciation.
 An example of homonym is tire and an example of heteronym is desert.
 A polyseme is a word or phrase with different, but related senses.
