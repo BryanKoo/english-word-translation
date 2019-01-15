@@ -1,4 +1,4 @@
-# English Word Translation for vocabulary materials
+# English Word Translation for vocabulary education materials
 Vocabulary learning is one of the first thing to do for learning any foreign language because it is the process acquiring building blocks in second language acquisition.
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
