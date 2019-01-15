@@ -3,7 +3,7 @@ Vocabulary learning is one of the first thing to do for learning any foreign lan
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
 We may call flash cards for vocabulary as word cards.
-When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be phrase or short sentence where the word is used.
+When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be short explanation or example sentence.
 When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
 
 Levels are mandatory metadata for all kinds of learning contents.
