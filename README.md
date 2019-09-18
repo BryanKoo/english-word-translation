@@ -45,7 +45,7 @@ Though NLTK has a basic English POS tagger, it is known that Syntaxnet, Spacy, S
   * Japanese dictionary (wiktionary, koto, weblio)
   * Vietnamese dictionary (laban, tracau, tratu)
 * Translation(equivalant word) extractor
-  * extract native explanations for each word of the foreign language regarding example sentence
+  * extract native explanations for each word of the foreign language with example sentence
     * 1 or more etymologies
       * 1 or more pos's(part of speech)
         * 1 or more corresponding native words
