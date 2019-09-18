@@ -5,8 +5,9 @@ Flash cards are helpful for learning and memorizing things that are simple but n
 We may call flash cards for vocabulary as word cards.
 When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be short explanation or example sentence in the same language as the word.
 When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
+Bilingual word cards are the one this project is covering.
 
-We need structured data as below for preparing both word cards.
+We need structured data as below for preparing bilingual word cards.
 * Foreign word (text)
   * visualization of the word (image)
   * example phrases/sentences in foreign language (text + image)
@@ -27,8 +28,6 @@ An example of homonym is tire and an example of heteronym is desert.
 A polyseme is a word or phrase with different, but related senses.
 Offline dictionaries have sepereted entry for homographs and unified entry for polysemes.
 But some online dictionary like Wiktionary does not follow this policy, it has only one entry for homograph.
-Though the former policy is better for vocabulary learning, it is assumed that the homograph policy is post-processed manually in this project.
-So there will be only one entry for each homograph and the meanings will be unified, for the time being.
 
 ## POS(part-of-speech) tagging
 A word can be used as noun in one sentence and as verb in another sentenc.
@@ -40,12 +39,13 @@ Though NLTK has a basic English POS tagger, it is known that Syntaxnet, Spacy, S
 ## Software requiremants of the projects
 * Language utilities for the native/foreign language (Japanese, Vietnamese, English)
   * alphabet check, symbol replacement, locale, etc.,
+  * pos tagging with the example sentence
 * Scraping on-line dictionaries
   * English dictionary which has Japanese translation (wiktionary)
   * Japanese dictionary (wiktionary, koto, weblio)
   * Vietnamese dictionary (laban, tracau, tratu)
 * Translation(equivalant word) extractor
-  * extract native explanations for each word of the foreign language
+  * extract native explanations for each word of the foreign language regarding example sentence
     * 1 or more etymologies
       * 1 or more pos's(part of speech)
         * 1 or more corresponding native words
