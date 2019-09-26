@@ -3,9 +3,9 @@ Vocabulary learning is the first thing to do for learning any foreign language b
 
 Flash cards are helpful for learning and memorizing things that are simple but numerous.
 We may call flash cards for vocabulary as word cards.
-When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be short explanation or example sentence in the same language as the word.
-When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language.
-Bilingual word cards are the one this project is covering.
+When we create monolingual word cards, the one side of the card can be a word and a descriptive image and the other side can be short explanation and/or example sentence in the same language as the word.
+When we create bilingual word cards, the one side of the card can be a foreign word and a descriptive image, and the other side can be the equivalant word in native language and/or example sentence in the same language as the word.
+Creation of bilingual word card is the goal of this project. Recent NLP technology should be utilized to achieve the goal very efficiently.
 
 We need structured data as below for preparing bilingual word cards.
 * Foreign word (text)
