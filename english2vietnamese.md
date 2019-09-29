@@ -48,5 +48,6 @@ Someone is usually pronoun in the dictionary but pos-tagger may take it noun ins
 While in "Please be quiet ^while^ I am studying." is conjunction but pos-tagger may take it as preposition to differenciate subordinating conjunction from coordinating conjunction.
 
 #### Finding the most common meaning
+It is likely that the first meaning in the dictionary is the more common case.
 It is likely that the meaning with more examples is the more common case.
 If we are looking for the most common meaning of the word, we can choose meaning(s) with more examples.
