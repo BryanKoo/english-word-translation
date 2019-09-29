@@ -1,1 +1,1 @@
-# How to get vietnamese words as a translation of each english word.
+# How to get vietnamese translation for each english word.
