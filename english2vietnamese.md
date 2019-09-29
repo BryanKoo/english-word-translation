@@ -14,7 +14,7 @@ I have found 3 on-line English-Vietnamese dictionaries.
 2. look-up a E2V dictionary
 There are cases that an English word cannot be found in the dictionary.
 It is usually the case when there are multiple spells for an English word.
-(catalog, catalogue; hardworking, hard-working; and so on)
+(catalog, catalogue; hardworking, hard-working; everyone, everybody; and so on)
 Dictionary explains an English word with hierachy of etymologies > pos-tags > meanings > examples.
 It is need to know the vietnamese translation for each pos-tag.
 Phó từ is the vietnamese translation of adverb, e.g.
