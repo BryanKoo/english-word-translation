@@ -43,6 +43,10 @@ And also it is naturally hard to differenciate from verb and adjective and noun 
 Hardworking in "he is hardworking and creative" is a adjective but hard to determine pos-tag.
 Melting in "the ice is melting in the sun" is verb but hard to determine pos-tag.
 
+Someone is usually pronoun in the dictionary but pos-tagger may take it noun instead of pronoun.
+
+While in "Please be quiet ^while^ I am studying." is conjunction but pos-tagger may take it as preposition to differenciate subordinating conjunction from coordinating conjunction.
+
 #### Finding the most common meaning
 It is likely that the meaning with more examples is the more common case.
 If we are looking for the most common meaning of the word, we can choose meaning(s) with more examples.
