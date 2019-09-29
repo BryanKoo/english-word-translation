@@ -17,7 +17,7 @@ It is usually the case when there are multiple spells for an English word.
 (catalog, catalogue; hardworking, hard-working; and so on)
 Dictionary explains an English word with hierachy of etymologies > pos-tags > meanings > examples.
 It is need to know the vietnamese translation for each pos-tag.
-Phó từ is the translation of adverb, e.g.
+Phó từ is the vietnamese translation of adverb, e.g.
 There is only 1 etymology for once.
 There are multiple pos-tag for once (adverb, conjunction, noun, ..) but we need to check only the part of adverb(=Phó từ).
 There are multiple meanings for adverb usage.
