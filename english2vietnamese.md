@@ -41,6 +41,7 @@ Cement in "The proportion of sand to cement used was three to one." is a noun bu
 
 And also it is naturally hard to differenciate from verb and adjective and noun if a verb is used with -ing.
 Hardworking in "he is hardworking and creative" is a adjective but hard to determine pos-tag.
+Melting in "the ice is melting in the sun" is verb but hard to determine pos-tag.
 
 #### Finding the most common meaning
 It is likely that the meaning with more examples is the more common case.
