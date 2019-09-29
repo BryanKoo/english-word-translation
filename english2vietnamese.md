@@ -28,7 +28,9 @@ If there are multiple etymology, it is highly likely that the etymology with mor
 If we are looking for the most common meaning of the word, we can easily choose a etymology.
 By comparing the dictionary example and the key-example, we can choose a Vietnamese translation for once.
 With laban on-line dictionary, we can determine the most proper translation for once is một lần by the dictionary examples (I've only been there once, he cleans the car once a week)
-If there is no dictionary example, then we cannot determine the most proper translation and we need to use group of translations, so that a vietnamese capable person can choose one among group of translations.
+If there is no dictionary example, then we cannot determine the most proper translation easily.
+One way of determining the most proper translation is to translate back each vietnamese translations to english with google translate.
+If we cannot choose one proper translation with help of google translate, a vietnamese capable person should choose one among group of translations.
 
 ### Automated translation
 #### Pos-tagging
