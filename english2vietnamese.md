@@ -12,6 +12,10 @@ I have found 3 on-line English-Vietnamese dictionaries.
 (once, adverb, They have a meeting once a week), e.g.
 
 2. look-up a E2V dictionary
+There are cases that an English word cannot be found in the dictionary.
+It is usually the case when there are multiple spells for an English word.
+(catalog, catalogue; hardworking, hard-working; and so on)
+
 Dictionary explains an English word with hierachy of etymologies > pos-tags > meanings > examples.
 It is need to know the vietnamese translation for each pos-tag.
 Phó từ is the translation of adverb, e.g.
@@ -28,5 +32,17 @@ With laban on-line dictionary, we can determine the most proper translation for 
 If there is no dictionary example, then we cannot determine the most proper translation and we need to use group of translations, so that a vietnamese capable person can choose one among group of translations.
 
 ### Automated translation
+#### Pos-tagging
+If the source is only the (word, key-example) pair, it is need to find pos-tag of the word by NLP technology.
+It is known that Stanford pos-tagger is one of the good NLP resource.
+But it is not very correct and there are many error in finding pos-tag even for very simple sentences.
+
+Usually a word with multiple pos-tag makes errors.
+Cement in "The proportion of sand to cement used was three to one." is a noun but easy to mistake it as a verb.
+
+And also it is naturally hard to differenciate from verb and adjective and noun if a verb is used with -ing.
+Hardworking in "he is hardworking and creative" is a adjective but hard to determine pos-tag.
+
+#### Finding the most common meaning
 It is likely that the meaning with more examples is the more common case.
 If we are looking for the most common meaning of the word, we can choose meaning(s) with more examples.
