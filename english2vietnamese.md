@@ -10,10 +10,10 @@ The best way of word2word translation is getting the word(s) mappings between tw
 
 
 ## Manual translation without Vietamese language capability
-1. prepare (word, key-example) tuple for translation
+1. prepare (word, key-example) tuple for translation.
 (once, They have a meeting once a week)
 
-2. get a candidate from translators by typing word as input
+2. get a candidate from translators by typing word as input.
 Each translator outputs the most common candidates
 (google outputs multiple candidates as well but they are too many and difficult to choose one.)
 
@@ -21,7 +21,7 @@ Each translator outputs the most common candidates
 If the result is similar to the original english word then use the candidate as the translation.
 We can use vietnamese to english dictionary if available. 
 
-4. get candidates and choose one using dictionary if the back-translation is not okay
+4. get candidates and choose one using dictionary if the back-translation is not okay.
 This may be the case when the word has multiple pos/meanings.
 We should spend time to look up the dictionary and compare translations of multiple meanings.
 Use the English-Vietnamese dictionary if English is the first language or Korean-Vietnamese dictionary if Korean is the first language.
